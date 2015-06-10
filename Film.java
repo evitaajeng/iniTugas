@@ -16,8 +16,9 @@ public class Film {
         this.sutradara = sutradara;
     }
 
-    public Film(String namaFilm) {
+    public Film(String namaFilm, String jenisFilm) {
         this.namaFilm = namaFilm;
+        this.jenisFilm = jenisFilm;
     }
 
     public String getNamaFilm() {
@@ -26,10 +27,6 @@ public class Film {
 
     public void setNamaFilm(String namaFilm) {
         this.namaFilm = namaFilm;
-    }
-
-    public Film(String jenisFilm){
-        this.jenisFilm = jenisFilm;
     }
 
     public String getJenisFilm() {
